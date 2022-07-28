@@ -5,15 +5,19 @@ const NavBar = () => {
     return (
         <Fragment>
             <nav>
+                <h1>
+
+                </h1>
                 <div>
-                    <ul>
+                    <ul className="list">
                         <Fragment>
-                            <li><NavButton to="/" label="Home" /></li>
-                            <li><NavButton to="/contactUs" label="Contact Us" /></li>
+                            <li className="items"><NavButton to="/" label="Employee Form" /></li>
+                            <li className="items"><NavButton to="/contactUs" label="Contact Us" /></li>
                         </Fragment>
                     </ul>
                 </div>
             </nav>
+            <div style={{ height: "75px" }} />
         </Fragment>
     )
 }

@@ -7,7 +7,7 @@ const NavButton = (props) => {
     const [hover, setHover] = useState(false);
 
     return (
-        <NavLink
+        <NavLink className="nav-style"
             to={props.to}
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
