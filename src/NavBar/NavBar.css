@@ -1,7 +1,6 @@
 .list {
     list-style-type: none;
-    background: linear-gradient(45deg, rgb(103, 182, 250), midnightblue);
-    height: 100%;
+    background: linear-gradient(45deg, #e8e8088e, rgba(187, 18, 3, 0.744));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,11 +8,11 @@
 }
 
 nav {
+    background: linear-gradient(45deg, rgb(1, 1, 37), rgb(51, 51, 69));
     position: fixed;
     z-index: 9999;
     width: 100%;
-    height: 75px;
-    background: scroll;
+    height: 10%;
 }
 
 .items {
@@ -21,9 +20,18 @@ nav {
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
-    color: aliceblue;
+    color: rgb(28, 33, 37);
 }
 
-.nav-style {
-    background-color: black;
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 180%;
+    margin: 0 20px;
+    color: antiquewhite;
+}
+
+p {
+    color: antiquewhite;
+    margin: 0 50px;
 }
