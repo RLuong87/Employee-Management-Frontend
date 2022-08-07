@@ -1,13 +1,13 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { AuthContext } from "../Providers/AuthProvider";
-import Container from "../../common/Container";
-import { apiHostUrl } from "../../config";
-import LoginForm from "../Auth/Admin/LoginForm";
-import Footer from "../../footer/Footer";
+import LoginForm from "./LoginForm";
+import Container from "../../../common/Container";
+import { apiHostUrl } from "../../../config";
+import { AuthContext } from "../../Providers/AuthProvider";
+import Footer from "../../../footer/Footer";
 
-const Home = () => {
+const Login = () => {
 
     const [query, setQuery] = useState({
         username: '',
@@ -68,4 +68,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Login;

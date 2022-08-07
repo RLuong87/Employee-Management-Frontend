@@ -1,5 +1,5 @@
 import React from "react";
-import HorizontalLine from "../../common/HorizontalLine";
+import HorizontalLine from "../../../common/HorizontalLine";
 
 const ContactUs = () => {
 

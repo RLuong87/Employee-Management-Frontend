@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HorizontalLine from "../../common/HorizontalLine";
+import HorizontalLine from "../../../common/HorizontalLine";
 
 const EmployeePortal = () => {
 
@@ -15,14 +15,14 @@ const EmployeePortal = () => {
                     New Employee
                 </button>
             </Link>
+            <Link to="/employeeTable">
+                <button>
+                    Employees
+                </button>
+            </Link>
             <Link to="/updateEmployee">
                 <button>
                     Update Employee
-                </button>
-            </Link>
-            <Link to="/employeeTable">
-                <button>
-                    View Employee
                 </button>
             </Link>
         </div>

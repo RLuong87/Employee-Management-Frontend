@@ -1,18 +1,18 @@
 .list {
     list-style-type: none;
-    background: linear-gradient(45deg, #e8e8088e, rgba(187, 18, 3, 0.744));
+    background: linear-gradient(45deg, #eaeaf0, rgba(240, 246, 246, 0.919));
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    justify-content: right;
+    font-family: "Roboto", Arial !important;
 }
 
 nav {
-    background: linear-gradient(45deg, rgb(1, 1, 37), rgb(51, 51, 69));
-    position: fixed;
+    background: linear-gradient(45deg, rgb(1, 1, 75), rgba(1, 1, 75));
+    position: relative;
     z-index: 9999;
     width: 100%;
     height: 10%;
+    border-radius: 7px;
 }
 
 .items {
