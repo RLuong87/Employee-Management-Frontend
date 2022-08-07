@@ -28,17 +28,12 @@ const Footer = () => {
                     </Column>
                     <Column>
                         <Heading>Services</Heading>
-                        <FooterLink href="#">Writing</FooterLink>
-                        <FooterLink href="#">Internships</FooterLink>
-                        <FooterLink href="#">Coding</FooterLink>
+                        <FooterLink href="#">Careers</FooterLink>
                         <FooterLink href="#">Teaching</FooterLink>
                     </Column>
                     <Column>
                         <Heading>Contact Us</Heading>
-                        <FooterLink href="#">Uttar Pradesh</FooterLink>
-                        <FooterLink href="#">Ahemdabad</FooterLink>
-                        <FooterLink href="#">Indore</FooterLink>
-                        <FooterLink href="#">Mumbai</FooterLink>
+                        <FooterLink href="#">Human Resources</FooterLink>
                     </Column>
                     <Column>
                         <Heading>Social Media</Heading>
